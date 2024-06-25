@@ -28,7 +28,7 @@ When adding oVirt 4.0+ hypervisor managers, use a URL similar to the following:
 https://oVirt_MGR_HOST/ovirt-engine/api
 ```
 
-**Note:** a username for oVirt environments needs to be provided in the **user@domain** format - i.e. **admin@internal**. This user must have all permissions related to managing snapshots, creating/removing VMs, operating disks and exporting data.
+**Note:** a username for oVirt environments needs to be provided in the **user@domain** format - i.e. **admin@internal**. This user must have all permissions related to managing snapshots, creating/removing VMs, operating disks and exporting data. If your oVirt environment is managed by the default embedded keycloak auth service, the default user might be **admin@ovirt@internalsso**, which is the default user for the oVirt API.
 
 ## Backup Strategies
 
